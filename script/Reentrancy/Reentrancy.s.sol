@@ -15,3 +15,6 @@ contract KingScript is Script {
         attacker.withdrawAll();
     }
 }
+
+
+
