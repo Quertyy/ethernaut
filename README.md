@@ -2,8 +2,8 @@
 
 This repository contains my writeups for the [Ethernaut CTF](https://ethernaut.openzeppelin.com/).
 Challenges requiring the use of a smart contract in order to exploit the different levels will be listed in the src folder. Those that can be done directly via the web console will not be listed in this repo.
-I used [Foundry](https://book.getfoundry.sh/) ) to deploy the smart contracts on the Goerli testnet. 
-Its use as well as its speed of deployment are clearly superior to Hardhat or Truffle.
+
+I used [Foundry](https://book.getfoundry.sh/) to deploy the smart contracts on the Goerli testnet.  Its use as well as its speed of deployment are clearly superior to Hardhat or Truffle.
 
 ### Challenges
 
