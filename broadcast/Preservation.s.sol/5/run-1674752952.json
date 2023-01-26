@@ -1,0 +1,76 @@
+{
+  "transactions": [
+    {
+      "hash": "0xf52bec445ca5ecf698eed8ca33599b8904384b6a406472facd8637a1e0c9e617",
+      "transactionType": "CREATE",
+      "contractName": null,
+      "contractAddress": "0x8c6c925E34e2205d2A2581d0862EA74eA2F780DB",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "gas": "0x418db",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b5060405161028e38038061028e83398101604081905261002f91610062565b60038054336001600160a01b031991821617909155600480549091166001600160a01b0392909216919091179055610092565b60006020828403121561007457600080fd5b81516001600160a01b038116811461008b57600080fd5b9392505050565b6101ed806100a16000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80639e5faafc1161005b5780639e5faafc146100fd578063cc6002c714610105578063d4ee1d9014610118578063d987e6b51461012b57600080fd5b80631f457cb5146100825780633beb26c4146100b15780638da5cb5b146100ea575b600080fd5b600054610095906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b6100e86100bf36600461019e565b50600380546001600160a01b0319167358f51ad645aab9cefc282f9630e2ca0f15b3af62179055565b005b600354610095906001600160a01b031681565b6100e861013e565b600454610095906001600160a01b031681565b600254610095906001600160a01b031681565b600154610095906001600160a01b031681565b6004805460405163078f013160e51b815230928101929092526001600160a01b03169063f1e0262090602401600060405180830381600087803b15801561018457600080fd5b505af1158015610198573d6000803e3d6000fd5b50505050565b6000602082840312156101b057600080fd5b503591905056fea264697066735822122029017f43b5ccbe09f3354ab74b946b1b7f60ba915422b33f33a4b404af864d7664736f6c634300081100330000000000000000000000008b885b663d63bbb530114d9f82c950a73806870f",
+        "nonce": "0xb1",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x92a3fef1d512d9fa1716ba22732d9c75bde45c0f92d9cb15e2ecf1bbe04f6f05",
+      "transactionType": "CALL",
+      "contractName": "/Users/querty/Web3/Dev/solidity/ethernaut/src/Preservation/Attacker.sol:Attacker",
+      "contractAddress": "0x8c6c925E34e2205d2A2581d0862EA74eA2F780DB",
+      "function": "attack()",
+      "arguments": [],
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "to": "0x8c6c925e34e2205d2a2581d0862ea74ea2f780db",
+        "gas": "0xc68b",
+        "value": "0x0",
+        "data": "0x9e5faafc",
+        "nonce": "0xb2",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x18cd8ea0df03b3d85031a3ab7f27b46c812b74ce3dbdfed9104e63b9c0297bf3",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x8B885b663d63bbB530114D9F82c950A73806870F",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "to": "0x8b885b663d63bbb530114d9f82c950a73806870f",
+        "gas": "0x108d6",
+        "value": "0x0",
+        "data": "0xf1e026200000000000000000000000000000000000000000000000000000000063d2b0d8",
+        "nonce": "0xb3",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xf52bec445ca5ecf698eed8ca33599b8904384b6a406472facd8637a1e0c9e617",
+    "0x92a3fef1d512d9fa1716ba22732d9c75bde45c0f92d9cb15e2ecf1bbe04f6f05",
+    "0x18cd8ea0df03b3d85031a3ab7f27b46c812b74ce3dbdfed9104e63b9c0297bf3"
+  ],
+  "path": "/Users/querty/Web3/Dev/solidity/ethernaut/broadcast/Preservation.s.sol/5/run-latest.json",
+  "returns": {},
+  "timestamp": 1674752952,
+  "chain": 5,
+  "multi": false,
+  "commit": "5b57906"
+}
