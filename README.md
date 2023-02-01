@@ -24,5 +24,6 @@ I used [Foundry](https://book.getfoundry.sh/) to deploy the smart contracts on t
 - [x] [Preservation](https://ethernaut.openzeppelin.com/level/0x2754fA769d47ACdF1f6cDAa4B0A8Ca4eEba651eC)
 - [x] [Recovery](https://ethernaut.openzeppelin.com/level/0xb4B157C7c4b0921065Dded675dFe10759EecaA6D)
 - [x] [MagicNumber](https://ethernaut.openzeppelin.com/level/0xFe18db6501719Ab506683656AAf2F80243F8D0c0)
+- [x] [Shop](https://ethernaut.openzeppelin.com/level/0xCb1c7A4Dee224bac0B47d0bE7bb334bac235F842)
 
 
