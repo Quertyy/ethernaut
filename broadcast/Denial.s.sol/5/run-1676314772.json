@@ -1,0 +1,55 @@
+{
+  "transactions": [
+    {
+      "hash": "0xbe17653869b338458104ee06f74937d7da8b3074d15af981f7d4fbdd8d118026",
+      "transactionType": "CREATE",
+      "contractName": null,
+      "contractAddress": "0x491dE03c2821527bE0755a125C0Ebc5D37b80072",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "gas": "0x22a9a",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b5060405161012338038061012383398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b6091806100926000396000f3fe608060405260043610601c5760003560e01c806377fa5295146021575b5b601d565b348015602c57600080fd5b50600054603f906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f3fea2646970667358221220f299e1764f3c89700254c11160d68fe0e604724faced0a8200b2ca6ec77f532a64736f6c63430008110033000000000000000000000000baae431a33700672cf2b58a0d5c5e5d9a73c2f6e",
+        "nonce": "0xc6",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": "0x9c90c2a4e67844c7d3331cd978d06b5733db4ac044fff4dae2acc6c278f21fa9",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xbaAe431a33700672cF2B58A0d5c5E5d9A73C2f6E",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://eth-goerli.g.alchemy.com/v2/RgMJgB9Nea1-axwRSlJe3wFG5ArCLWIL",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x58f51ad645aab9cefc282f9630e2ca0f15b3af62",
+        "to": "0xbaae431a33700672cf2b58a0d5c5e5d9a73c2f6e",
+        "gas": "0xec99",
+        "value": "0x0",
+        "data": "0x4e1c5914000000000000000000000000491de03c2821527be0755a125c0ebc5d37b80072",
+        "nonce": "0xc7",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xbe17653869b338458104ee06f74937d7da8b3074d15af981f7d4fbdd8d118026",
+    "0x9c90c2a4e67844c7d3331cd978d06b5733db4ac044fff4dae2acc6c278f21fa9"
+  ],
+  "path": "/Users/querty/Web3/Dev/solidity/ethernaut/broadcast/Denial.s.sol/5/run-latest.json",
+  "returns": {},
+  "timestamp": 1676314772,
+  "chain": 5,
+  "multi": false,
+  "commit": "8c1d9f6"
+}
